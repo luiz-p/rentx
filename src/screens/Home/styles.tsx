@@ -6,6 +6,7 @@ export default {
     flex: 1;
     background-color: ${({ theme }) => theme.colors.background_primary};
   `,
+
   Header: styled.View`
     width: 100%;
     height: 113px;
@@ -15,11 +16,13 @@ export default {
     justify-content: flex-end;
     padding: 32px 24px;
   `,
+
   HeaderContent: styled.View`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   `,
+
   TotalCars: styled.Text`
     font-size: ${RFValue(15)}px;
     font-family: ${({ theme }) => theme.fonts.primary_400};

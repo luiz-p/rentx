@@ -29,6 +29,7 @@ export default {
     font-family: ${({ theme }) => theme.fonts.primary_400};
     color: ${({ theme }) => theme.colors.text};
   `,
+
   CarList: styled(FlatList).attrs({
     contentContainerStyle: {
       padding: 24,

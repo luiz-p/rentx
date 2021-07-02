@@ -8,6 +8,7 @@ import peopleSvg from '../../assets/people.svg';
 import speedSvg from '../../assets/speed.svg';
 import { Accessory } from '../../components/Accessory';
 import { BackButton } from '../../components/BackButton';
+import { Button } from '../../components/Button';
 import { ImageSlider } from '../../components/ImageSlider';
 import S from './styles';
 
@@ -54,6 +55,10 @@ export function CarDetails() {
           para quem gosta de acelerar.
         </S.About>
       </S.Content>
+
+      <S.Footer>
+        <Button title="Escolher período do aluguel" />
+      </S.Footer>
     </S.Container>
   );
 }

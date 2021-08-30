@@ -6,6 +6,7 @@ import { useTheme } from 'styled-components';
 import ArrowSvg from '../../assets/arrow.svg';
 import { BackButton } from '../../components/BackButton';
 import { Button } from '../../components/Button';
+import { Calendar } from '../../components/Calendar';
 import S from './styles';
 
 export function Scheduling() {
@@ -39,7 +40,9 @@ export function Scheduling() {
         </S.RentalPeriod>
       </S.Header>
 
-      <S.Content></S.Content>
+      <S.Content>
+        <Calendar />
+      </S.Content>
 
       <S.Footer>
         <Button title="Confirmar" />

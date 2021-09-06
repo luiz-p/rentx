@@ -15,7 +15,7 @@ import {
   useFonts,
 } from '@expo-google-fonts/inter';
 
-import { Scheduling } from './src/screens/Scheduling';
+import { SchedulingDetails } from './src/screens/SchedulingDetails';
 import theme from './src/styles/theme';
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      <Scheduling />
+      <SchedulingDetails />
     </ThemeProvider>
   );
 }
